@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product Menu</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+    <style>
+        #welcomeMessage {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            color: #00ffaa;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Optional Header -->
+    <header>
+        <h1>Our Products</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav aria-label="Main navigation">
+        <ul>
+          <a href="index.html" class="btn home-btn">Home</a>
+        </ul>
+    </nav>
+
+    <!-- Welcome Message -->
+    <div class="container">
+        <div id="welcomeMessage"></div>
+    </div>
+
+    <!-- Product Categories -->
+    <section id="categories" class="categories">
+        <a class="category" href="casual wear.html">
+            <img src="images/casual wear.jpg" alt="Casual Wear" />
+            <h2>Casual Wear</h2>
+        </a>
+
+        <a class="category" href="desighner formal wear.html">
+            <img src="images/desighner formal wear.jpg" alt="Designer Formal Wear" />
+            <h2>Designer Formal Wear</h2>
+        </a>
+
+        <a class="category" href="sneakers.html">
+            <img src="images/sneackers.jpg" alt="Sneackers" />
+            <h2>Sneackers</h2>
+        </a>
+
+        <a class="category" href="skateboards.html">
+            <img src="images/skateboard.jpg" alt="Skateboards" />
+            <h2>Skate boards</h2>
+        </a>
+
+        <a class="category" href="mens jewlery.html">
+            <img src="images/mens jewlery.jpg" alt="Mens jewlery" />
+            <h2>Mens Jewlery</h2>
+        </a>
+
+        <a class="category" href="Hoodies.html">
+            <img src="images/hoodies.jpg" alt="Hoodies" />
+            <h2>Hoodies</h2>
+        </a>
+    </section>
+
+    <!-- Optional Footer -->
+    <footer>
+        &copy; 2025 Your Store. All rights reserved.
+    </footer>
+
+    <!-- JavaScript Logic -->
+    <script>
+        window.onload = () => {
+            // Retrieve user info from localStorage
+            const userInfoString = localStorage.getItem('userInfo');
+
+            if (userInfoString) {
+                const userInfo = JSON.parse(userInfoString);
+                const firstName = userInfo.name || '';
+                const surname = userInfo.surname || '';
+                const bank = userInfo.bank || '';
+                
+                // Show welcome message
+                const welcomeEl = document.getElementById("welcomeMessage");
+                welcomeEl.textContent = `Welcome, ${firstName} ${surname} (${bank})! Enjoy shopping our collection.`;
+            } else {
+                // No user info found, redirect to login page
+                window.location.href = 'login.html'; // Change this if your login file has a different name
+            }
+        };
+    </script>
+
+</body>
+</html>

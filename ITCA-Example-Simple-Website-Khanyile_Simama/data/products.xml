@@ -1,0 +1,62 @@
+<products>
+  <product>
+    <id>1</id>
+    <name>BMW S1000RR</name>
+    <price>340000</price>
+    <image>images/bmw.jpg</image>
+  </product>
+  <product>
+    <id>2</id>
+    <name>Yamaha R1</name>
+    <price>320000</price>
+    <image>images/yamaha.jpg</image>
+  </product>
+  <product>
+    <id>3</id>
+    <name>Kawasaki ZX10R</name>
+    <price>305000</price>
+    <image>images/kawasaki.jpg</image>
+  </product>
+  <product>
+    <id>4</id>
+    <name>Honda CBR1000rrr</name>
+    <price>355000</price>
+    <image>images/honda.jpg</image>
+  </product>
+  <product>
+    <id>5</id>
+    <name>Ducati Panigale V4</name>
+    <price>370000</price>
+    <image>images/ducati.jpg</image>
+  </product>
+
+  <product>
+  <id>6</id>
+  <name>BMW R1200 GS</name>
+  <price>350000</price>
+  <image>images\bmwgs.jpg</image>
+  </product>
+
+  <product>
+   <id>7</id>
+  <name>Honda CRF1100 Africa</name>
+  <price>326000</price>
+  <image>images\hondaadventure.jpg</image>
+  </product>
+
+  <product>
+   <id>8</id>
+  <name>Yamaha Tracer 900</name>
+  <price>317000</price>
+  <image>images/yamahatouring.jpg</image>
+  </product>
+
+  <product>
+   <id>9</id>
+  <name>Ducati Multistrada V4</name>
+  <price>380000</price>
+  <image>images\ducatistradale.jpg</image>
+  </product>
+
+
+</products>

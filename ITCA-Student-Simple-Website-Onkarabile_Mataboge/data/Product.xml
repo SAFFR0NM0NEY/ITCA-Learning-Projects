@@ -1,0 +1,75 @@
+<products>
+       <product>
+          <id>1</id>
+          <name>Office brown</name>
+          <price>10000</price>
+          <image>image\DualStylishSofa.webp</image>
+       </product>
+       <product>
+         <id>2</id>
+         <name>Maxy White</name>
+         <price>35000 </price>
+         <image>image\M090-018-LS1-CR1-RS1-B_RS-1350-x-900.jpg</image>
+       </product>
+       <product>
+        <id>3</id>
+        <name>Royal Green</name>
+        <price>50000</price>
+        <image>image\unnamed.png</image>
+       </product>
+       <product>
+        <id>4</id>
+       <name>comfy Moden</name>
+       <price>25000</price>
+       <image>image\comfy for single.jpg</image>
+       </product>
+       <product>
+       <id>5</id>
+       <name>White soft</name>
+       <price>45000</price>
+       <image>image\white caoch.webp</image>
+       </product>
+       <product>
+       <id>6</id>
+       <name>Family white</name>
+       <price>80000</price>
+       <image>image\luxaury and moden.jpg</image>
+       </product>
+       <product>
+      <id>7</id>
+      <name>Brown Home</name>
+       <price>9000</price>
+       <image>image\brown home.jpeg</image>
+       </product>
+       <product>
+       <id>8</id>
+      <name>Classic white</name>
+       <price>13000</price>
+       <image>image\classic white.jpg</image>
+       </product>
+       <product>
+       <id>9</id>
+      <name>Dine Green</name>
+       <price>11000</price>
+       <image>image\dinning room sofa.jpg</image>
+       </product>
+       <product>
+       <id>10</id>
+      <name>Mini round</name>
+       <price>12000</price>
+       <image>image\mini round.jpeg</image>
+       </product>
+       <product>
+       <id>11</id>
+      <name>Single caoch</name>
+       <price>8500</price>
+       <image>image\Single coach.avif</image>
+       </product>
+       <product>
+       <id>12</id>
+      <name>Rounded Life</name>
+       <price>45900</price>
+       <image>image\rounded life.jpg</image>
+       </product>
+       
+</products>

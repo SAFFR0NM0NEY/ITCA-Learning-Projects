@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Inventory>
+    <Item> 
+        <ID>KS001</ID>
+        <Name>Inline Skates Pro X300</Name>
+        <Price>2333.20</Price>
+        <Description>High-performance inline skates with adjustable straps and smooth bearings.</Description>
+        <Quantity>25</Quantity>
+        <Image>./image/Inline Skates Pro X300_frontview.jpg</Image>
+    </Item> 
+    <Item>
+        <ID>KS002</ID>
+        <Name>Classic Roller Skates</Name>
+        <Price>1600.50</Price>
+        <Description>Retro-style quad skates perfect for indoor and outdoor use.</Description>
+        <Quantity>40</Quantity>
+        <Image>./image/Classic Roller Skate_sideview.jpg</Image>
+    </Item>
+    <Item>
+        <ID>KS003</ID>
+        <Name>Protective Gear Set</Name>
+        <Price>719.00</Price>
+        <Description>Includes knee pads, elbow pads, and wrist guards for all-around safety.</Description>
+        <Quantity>75</Quantity>
+        <Image>image/Protective Gear Set.jpg</Image>
+    </Item>
+    <Item>
+        <ID>KS004</ID>
+        <Name>Skateboard Street Master</Name>
+        <Price>2064.15</Price>
+        <Description>Durable skateboard with concave deck and smooth street wheels.</Description>
+        <Quantity>30</Quantity>
+        <Image>./image/Skateboard Street Master_2.jpg</Image>
+    </Item>
+    <Item>
+        <ID>KS005</ID>
+        <Name>Helmet Pro Series</Name>
+        <Price>807.70</Price>
+        <Description>Lightweight and well-ventilated helmet for skaters of all levels.</Description>
+        <Quantity>50</Quantity>
+        <Image>./image/Helmet Pro Series_1.jpg</Image>
+    </Item>
+    <Item>
+        <ID>KS006</ID>
+        <Name>Skate Bearings ABEC-9</Name>
+        <Price>358.80</Price>
+        <Description>Precision-engineered bearings for a smooth and fast ride.</Description>
+        <Quantity>100</Quantity>
+        <Image>./image/Skate Bearings ABEC-9.jpg</Image>
+    </Item>
+    <Item>
+        <ID>KS007</ID>
+        <Name>LED Light-Up Wheels (Pack of 4)</Name>
+        <Price>448.55</Price>
+        <Description>Color-changing wheels that light up as you skate, perfect for night skating.</Description>
+        <Quantity>60</Quantity>
+        <Image>./image/LED Light-Up Wheels (Pack of 4).jpg</Image>
+    </Item>
+    <Item>
+        <ID>KS008</ID>
+        <Name>Skateboard Tool Kit</Name>
+        <Price>269.00</Price>
+        <Description>All-in-one tool for assembling and adjusting skateboards and skates.</Description>
+        <Quantity>90</Quantity>
+        <Image>./image/Skateboard Tool Kit.jpg</Image>
+    </Item>
+</Inventory>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Euphoria Cart</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Your Cart</h1>
+  <nav>
+      <a href="index.html"><h3>Home</h3></a> 
+      <a href="products.html"><h3>Products</h3></a>  
+      <a href="cart.html"><h3>Cart</h3></a>
+    </nav>
+  </header>
+  <main id="cart-items"></main>
+  <button onclick="clearCart()">Clear Cart</button>
+  <footer>
+    <p>&copy; 2025 Euphoria</p>
+  </footer>
+  <script>
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    let html = "<h2>Your Cart</h2>";
+    let total = 0;
+    cart.forEach(item => {
+      html += `<p>${item.name} - R${item.price}</p>`;
+      total += item.price;
+    });
+    html += `<h2>Total: R${total.toFixed(2)}</h2>`;
+    document.getElementById("cart-items").innerHTML = html;
+
+    function clearCart() {
+  localStorage.removeItem("cart");
+  document.getElementById("cart-items").innerHTML = ""; // assuming you have a cart-items div
+  alert("Cart has been cleared.");
+}
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<products>
+  <product>
+    <id>1</id>
+    <name>runningshoes</name>
+    <price>3500</price>
+    <image>images/nikerunningshoes.avif</image>
+  </product>
+  <product>
+    <id>2</id>
+    <name>nike tech</name>
+    <price>299.99</price>
+    <image>images/niketech.avif</image>
+  </product>
+  <product>
+    <id>3</id>
+    <name>nike slides</name>
+    <price>499.99</price>
+    <image>images/nikeslides.avif</image>
+  </product>
+  <product>
+    <id>4</id>
+    <name>nike D4 Riseshirt</name>
+    <price>699.99</price>
+    <image>images/d4shirt.avif</image>
+  </product>
+  <product>
+    <id>5</id>
+    <name>nike dry graphic</name>
+    <price>349.99</price>
+    <image>images/nikegraphic.avif</image>
+  </product>
+</products>

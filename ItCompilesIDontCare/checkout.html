@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="favicon.ico" />
+  <meta charset="UTF-8" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="css/style.css" />
+<div class="user-info">
+  <a href="login.html"><button>Login / Signup</button></a>
+</div>
+
+</head>
+<body>
+  <div class="checkout-container">
+    <h1>Checkout</h1>
+
+    <div class="order-summary" id="orderSummary">
+      <h2>Order Summary</h2>
+      <ul id="summaryItems"></ul>
+      <p><strong>Total: R<span id="totalPrice">0.00</span></strong></p>
+    </div>
+
+    <h2>Shipping Information</h2>
+    <form id="checkoutForm">
+      <input type="text" name="fullName" placeholder="Full Name" required />
+      <input type="text" name="address" placeholder="Address" required />
+      <input type="text" name="city" placeholder="City" required />
+      <input type="text" name="postalCode" placeholder="Postal Code" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+
+      <h2>Payment Method</h2>
+      <select name="paymentMethod" required>
+        <option value="">Select payment method</option>
+        <option value="card">Credit/Debit Card</option>
+        <option value="cod">Cash on Delivery</option>
+      </select>
+
+      <button type="submit" class="btn">Place Order</button>
+    </form>
+  </div>
+
+  <script>
+    // Load cart from localStorage
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const summary = document.getElementById('summaryItems');
+    const total = document.getElementById('totalPrice');
+
+    let totalPrice = 0;
+
+    cart.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = `${item.name} - R${item.price} x ${item.quantity}`;
+      summary.appendChild(li);
+      totalPrice += item.price * item.quantity;
+    });
+
+    total.textContent = totalPrice.toFixed(2);
+
+    // Handle form submission
+    document.getElementById('checkoutForm').addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const form = new FormData(this);
+      const order = {
+        fullName: form.get('fullName'),
+        address: form.get('address'),
+        city: form.get('city'),
+        postalCode: form.get('postalCode'),
+        phone: form.get('phone'),
+        paymentMethod: form.get('paymentMethod'),
+        cart: cart
+      };
+
+      try {
+        const response = await fetch('/api/checkout', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(order)
+        });
+
+        const result = await response.json();
+        if (response.ok) {
+          alert('Order placed successfully!');
+          localStorage.removeItem('cart');
+          window.location.href = 'index.html';
+        } else {
+          alert('Failed to place order: ' + result.message);
+        }
+      } catch (error) {
+        alert('An error occurred while placing the order.');
+        console.error(error);
+      }
+    });
+  </script>
+  </body>
+</html>

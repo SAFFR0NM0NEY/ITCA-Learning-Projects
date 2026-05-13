@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #bdbaa6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    Background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+/*Button 1 CSS*/
+.floating-button {
+      width: 300;
+      height: 300;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      background: linear-gradient(145deg, #00bcd4, #0097a7);
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+                  0 6px 6px rgba(0, 0, 0, 0.22);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      transform: translateZ(0);
+    }
+
+.floating-button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3),
+                  0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+.floating-button:active {
+      transform: translateY(1px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+/*Button 2 CSS*/ 
+.floating-button2 {
+      width: 300;
+      height: 300;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      background: linear-gradient(145deg, #00bcd4, #0097a7);
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+                  0 6px 6px rgba(0, 0, 0, 0.22);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      transform: translateZ(0);
+    }
+
+.floating-button2:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3),
+                  0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+.floating-button2:active {
+      transform: translateY(1px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /*SEPARATE*/
+.button-container1 {
+  gap: 100px;     
+  margin-top: 100px;
+  text-align: center;  
+}
+
+.button-container {
+  .button-container {
+  display: flex;       
+  gap: 20px;              
+  justify-content: center;
+  margin-top: 100px;      
+}
+}
+
+/*Button Clear Cart*/
+.floating-button3 {
+      width: 150;
+      height: 50;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      background: linear-gradient(145deg, #00bcd4, #0097a7);
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+                  0 6px 6px rgba(0, 0, 0, 0.22);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      transform: translateZ(0);
+    }
+
+.floating-button3:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3),
+                  0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+.floating-button3:active {
+      transform: translateY(1px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+/*Button add to cart*/
+.floating-button4 {
+      width: 200;
+      height: 50;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      background: linear-gradient(145deg, #00bcd4, #0097a7);
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+                  0 6px 6px rgba(0, 0, 0, 0.22);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      transform: translateZ(0);
+    }
+
+.floating-button4:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3),
+                  0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+.floating-button4:active {
+      transform: translateY(1px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }

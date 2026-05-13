@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Required</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .login-form {
+      background-color: #111;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,255,170,0.2);
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .login-form h2 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: #00ffaa;
+    }
+
+    .login-form input {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .login-form button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 1rem;
+      background-color: #00ffaa;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      color: #000;
+      cursor: pointer;
+    }
+
+    .login-form button:hover {
+      background-color: #00cc88;
+    }
+  </style>
+</head>
+<body>
+  <form class="login-form" onsubmit="handleLogin(event)">
+    <h2>Verify Your Identity</h2>
+    <input type="text" id="name" placeholder="First Name" required />
+    <input type="text" id="surname" placeholder="Surname" required />
+    <input type="text" id="bank" placeholder="Bank Name" required />
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    function handleLogin(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const surname = document.getElementById('surname').value.trim();
+      const bank = document.getElementById('bank').value.trim();
+
+      // Save to localStorage
+      localStorage.setItem('userInfo', JSON.stringify({ name, surname, bank }));
+
+      // Redirect to product menu page (space encoded)
+      window.location.href = "product%20menue.html";
+    }
+  </script>
+</body>
+</html>

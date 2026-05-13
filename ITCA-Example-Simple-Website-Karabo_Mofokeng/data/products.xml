@@ -1,0 +1,45 @@
+<products>
+
+  <section name="T-Shirts">
+    <product>
+      <name>anime_t-shirts</name>
+      <price>300.00</price>
+      <image>images/tshirts/anime_t-shirts.jpg</image>
+    </product>
+    <product>
+      <name>faith_over_fear_t-shirts</name>
+      <price>300.00</price>
+      <image>images/tshirts/faith_over_fear_t-shirts.jpg</image>
+    </product>
+  </section>
+
+  <section name="Headwear">
+    <product>
+      <name>baseball_caps</name>
+      <price>250.00</price>
+      <image>images/headwear/baseball_caps.jpeg</image>
+    </product>
+    <product>
+      <name>beanies</name>
+      <price>350.00</price>
+      <image>images/headwear/beanies.jpeg</image>
+    </product>
+  </section>
+
+  <section name="Pants">
+    <product>
+      <name>cargo_jeans</name>
+      <price>350.00</price>
+      <image>images/pants/cargo_jeans.jpg</image>
+    </product>
+    <product>
+      <name>jorts</name>
+      <price>350.00</price>
+      <image>images/pants/jorts.jpg</image>
+    </product>
+  </section>
+
+</products>
+
+
+

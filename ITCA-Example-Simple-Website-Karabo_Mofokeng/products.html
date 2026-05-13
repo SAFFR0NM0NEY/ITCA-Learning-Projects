@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JOY D BOY - Products</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/cart.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Joy D Boy</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Product List</h1>
+
+    <!-- T-Shirts Section -->
+    <section id="tshirts">
+      <h2>T-Shirts</h2>
+
+      <div class="product-list">
+        <div class="product">
+          <img src="images/tshirts/one_piece.jpg" alt="One Piece">
+          <h3>Anime T-Shirts</h3>
+          <p>Price: R300.00</p>
+          <label for="one_piece_qty">Quantity:</label>
+          <select id="one_piece_qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <button class="add-to-cart" data-name="One Piece" data-price="300" data-qty="one_piece_qty">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/tshirts/faith_over_fear.jpg" alt="Faith Over Fear">
+          <h3>Faith Over Fear T-Shirts</h3>
+          <p>Price: R300.00</p>
+          <label for="faith_over_fear_qty">Quantity:</label>
+          <select id="faith_over_fear_qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <button class="add-to-cart" data-name="Faith Over Fear" data-price="300" data-qty="faith_over_fear_qty">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Headwear Section -->
+    <section id="headwear">
+      <h2>Headwear</h2>
+
+      <div class="product-list">
+        <div class="product">
+          <img src="images/headwear/baseball_caps.jpeg" alt="Baseball Caps">
+          <h3>Baseball Caps</h3>
+          <p>Price: R250.00</p>
+          <label for="baseball_caps_qty">Quantity:</label>
+          <select id="baseball_caps_qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <button class="add-to-cart" data-name="Baseball Caps" data-price="250" data-qty="baseball_caps_qty">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/headwear/beanies.jpeg" alt="Beanies">
+          <h3>Beanies</h3>
+          <p>Price: R350.00</p>
+          <label for="beanies_qty">Quantity:</label>
+          <select id="beanies_qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <button class="add-to-cart" data-name="Beanies" data-price="350" data-qty="beanies_qty">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pants Section -->
+    <section id="pants">
+      <h2>Pants</h2>
+
+      <div class="product-list">
+        <div class="product">
+          <img src="images/pants/cargo_jeans.jpg" alt="Cargo Jeans">
+          <h3>Cargo Jeans</h3>
+          <p>Price: R350.00</p>
+          <label for="cargo_jeans_qty">Quantity:</label>
+          <select id="cargo_jeans_qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <button class="add-to-cart" data-name="Cargo Jeans" data-price="350" data-qty="cargo_jeans_qty">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/pants/jorts.jpg" alt="Jorts">
+          <h3>Jorts</h3>
+          <p>Price: R350.00</p>
+          <label for="jorts_qty">Quantity:</label>
+          <select id="jorts_qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <button class="add-to-cart" data-name="Jorts" data-price="350" data-qty="jorts_qty">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Joy D Boy</p>
+  </footer>
+
+  <script>
+    // Add products to cart
+    function addToCart(name, price, qty) {
+      // Get the quantity from the selected value
+      const quantity = document.getElementById(qty).value;
+
+      // Get the current cart from localStorage, or initialize an empty array if it doesn't exist
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+      // Check if the product is already in the cart
+      const existingProductIndex = cart.findIndex(item => item.name === name);
+
+      if (existingProductIndex !== -1) {
+        // If the product is already in the cart, increase its quantity
+        cart[existingProductIndex].quantity += parseInt(quantity);
+      } else {
+        // If the product is not in the cart, add it
+        cart.push({ name, price, quantity: parseInt(quantity) });
+      }
+
+      // Save the updated cart back to localStorage
+      localStorage.setItem('cart', JSON.stringify(cart));
+
+      // Notify the user
+      alert(`${name} x${quantity} added to cart`);
+    }
+
+    // Add event listener to all add-to-cart buttons
+    const buttons = document.querySelectorAll('.add-to-cart');
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        const name = button.getAttribute('data-name');
+        const price = parseFloat(button.getAttribute('data-price'));
+        const qty = button.getAttribute('data-qty');
+        
+        addToCart(name, price, qty);
+      });
+    });
+  </script>
+</body>
+</html>

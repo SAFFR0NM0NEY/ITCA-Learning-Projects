@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="favicon.ico" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Products</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>All Products</h1>
+    <div class="user-info">
+      <img src="images/user.png" alt="User" />
+    </div>
+  </header>
+
+  <main id="products-container">
+    <!-- Products will be dynamically inserted here -->
+  </main>
+
+  <footer>
+    &copy; 2025 CyberStore. All rights reserved.
+  </footer>
+
+  <script>
+    async function loadProducts() {
+      try {
+        // Fetch products from backend API route
+        const response = await fetch('/api/products');
+        if (!response.ok) throw new Error('Failed to load products');
+        const data = await response.json();
+
+        const container = document.getElementById('products-container');
+        container.innerHTML = ''; // Clear any placeholder content
+
+        data.categories.forEach(category => {
+          // Create category section
+          const section = document.createElement('section');
+          section.classList.add('category-section');
+
+          // Category title
+          const h2 = document.createElement('h2');
+          h2.classList.add('category-title');
+          h2.textContent = category.name;
+          section.appendChild(h2);
+
+          // Product grid container
+          const grid = document.createElement('div');
+          grid.classList.add('product-grid');
+
+          // Create product cards
+          category.products.forEach(product => {
+            const card = document.createElement('div');
+            card.classList.add('product-card');
+
+            const title = document.createElement('h3');
+            title.textContent = product.name;
+
+            const desc = document.createElement('p');
+            desc.textContent = product.description;
+
+            const price = document.createElement('p');
+            price.textContent = `Price: R${product.price.toLocaleString()}`;
+
+            const button = document.createElement('button');
+            button.textContent = 'Add to Cart';
+
+            // Optional: Add cart button functionality here or later
+
+            card.appendChild(title);
+            card.appendChild(desc);
+            card.appendChild(price);
+            card.appendChild(button);
+
+            grid.appendChild(card);
+          });
+
+          section.appendChild(grid);
+          container.appendChild(section);
+        });
+
+      } catch (error) {
+        console.error('Error loading products:', error);
+        const container = document.getElementById('products-container');
+        container.innerHTML = '<p>Sorry, failed to load products at this time.</p>';
+      }
+    }
+
+    // Load products on page load
+    window.addEventListener('DOMContentLoaded', loadProducts);
+  </script>
+
+  </body>
+</html>

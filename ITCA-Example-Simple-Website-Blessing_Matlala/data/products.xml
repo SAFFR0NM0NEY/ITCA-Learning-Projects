@@ -1,0 +1,38 @@
+<products>
+  <product>
+    <id>1</id>
+    <name>Codeine</name>
+    <price>130</price>
+    <image>images/codeine.jpg</image>
+  </product>
+  <product>
+    <id>2</id>
+    <name>Mary Jane</name>
+    <price>50</price>
+    <image>images/Cannabis.jpg</image>
+  </product>
+  <product>
+    <id>3</id>
+    <name>Snow</name>
+    <price>350</price>
+    <image>images/cocaine.jpg</image>
+  </product>
+  <product>
+    <id>4</id>
+    <name>Ecstasy</name>
+    <price>200</price>
+    <image>images/ecstasy1.jpg</image>
+  </product>
+  <product>
+    <id>5</id>
+    <name>MDMA</name>
+    <price>180</price>
+    <image>images/mdma.png</image>
+  </product>
+   <product>
+    <id>6</id>
+    <name>PMA</name>
+    <price>120</price>
+    <image>images/PMA.jpg</image>
+  </product>
+</products>

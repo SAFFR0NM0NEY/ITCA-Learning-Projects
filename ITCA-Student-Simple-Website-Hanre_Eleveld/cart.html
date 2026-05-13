@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Kates Skates - Your one-stop shop for all skating needs.">
+        <title>Cart</title>
+        <link rel="stylesheet" type="text/css" href="CSS/Master.css">
+        <link rel="icon" href="image/logo.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Your Cart
+            </h1>  
+            <div class="custom">  
+                <nav>     
+                    <button class="home"><a href="./index.html">Home</a></button>
+                    <button class="products"><a href="./products.html">View Products</a></button>
+                    <button class="cart"><a href="./cart.html">Cart</a></button>
+                </nav>
+            </div>
+        </header>
+
+        <main id="cart-items"></main>
+        <button class="clear-cart"><span>Clear Cart</span></button>
+        
+        <footer>
+            <p>Kates Skates&copy; 2025 All rights reserved.</p>
+        </footer>
+        <!-- Linking the JavaScript to the HTML file so that the products can be loaded and displayed on the webpage -->
+        <main id="cart-items"></main>
+            <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const cartItemsElement = document.getElementById("cart-items");
+                const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+                if (cart.length === 0) {
+                cartItemsElement.innerHTML = "<p>Your cart is empty.</p>";
+                return;
+                }
+
+                let html = "<h2>Your Cart</h2>";
+                let total = 0;
+
+                cart.forEach(item => {
+                html += `<p>${item.name} - R${item.price}</p>`;
+                total += parseFloat(item.price);
+                });
+
+                html += `<h3>Total: R${total.toFixed(2)}</h3>`;
+                cartItemsElement.innerHTML = html;
+
+                document.querySelector(".clear-cart").addEventListener("click", () => {
+                localStorage.removeItem("cart");
+                alert("Cart was cleared!");
+                location.reload();
+                });
+            });
+            </script>
+    </body>
+</html>

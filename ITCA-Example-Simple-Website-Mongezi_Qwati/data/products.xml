@@ -1,0 +1,44 @@
+<products>
+    <product>
+        <id>1</id>
+        <name>EMA WOMENS COMBO</name>
+        <price>449.99</price>
+        <image>images/EMANAVYdownload.jpeg</image>
+        <category>women</category>
+    </product>
+    <product>
+        <id>2</id>
+        <name>EMA WOMENS COMBO</name>
+        <price>449.99</price>
+        <image>images/EMAPINKdownload.jpeg</image>
+        <category>women</category>
+    </product>
+    <product>
+        <id>3</id>
+        <name>EMA MENS COMBO</name>
+        <price>449.99</price>
+        <image>images/ema_blackcombox4-scaled.jpg</image>
+        <category>men</category>
+    </product>
+    <product>
+        <id>4</id>
+        <name>EMA MENS COMBO</name>
+        <price>449.99</price>
+        <image>images/EMABLUEdownload.jpeg</image>
+        <category>men</category>
+    </product>
+    <product>
+        <id>5</id>
+        <name>EMA WOMENS Singular Scent</name>
+        <price>149.99</price>
+        <image>images/EMA1LADY.jpeg</image>
+        <category>women</category>
+    </product>
+    <product>
+        <id>6</id>
+        <name>EMA MENS Singular Scent</name>
+        <price>149.99</price>
+        <image>images/EMA1MEN.jpeg</image>
+        <category>men</category>
+    </product>
+</products>

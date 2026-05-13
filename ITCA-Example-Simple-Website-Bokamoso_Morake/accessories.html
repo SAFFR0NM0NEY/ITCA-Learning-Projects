@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessories</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+
+<header>
+    <h1>Accessories</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="wigs.html">Wigs</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+</header>
+
+<div class="product-container">
+
+    <div class="product-card">
+        <img src="Images/Hair Clips.jpg" alt="Hair Clips">
+        <h3>Hair Clips</h3>
+        <p>R22.99</p>
+        <button class="add-to-cart" data-name="Hair Clips" data-price="22.99" >Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Images/Hot Comb.jpg" alt="Hot Comb">
+        <h3>Hot Comb</h3>
+        <p>R138.99</p>
+        <button class="add-to-cart" data-name="Hot Comb" data-price="138.99">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Images/Installation kit.jpg" alt="Installation Kit">
+        <h3>Installation Kit</h3>
+        <p>R162.99</p>
+        <button class="add-to-cart" data-name="Installation Kit" data-price="162.99" >Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Images/Lace Band.jpg" alt="Lace Band">
+        <h3>Lace Band</h3>
+        <p>R17.99</p>
+        <button class="add-to-cart" data-name="Lace Band" data-price="17.99">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Images/Straightener.jpg" alt="Straightener">
+        <h3>Straightener</h3>
+        <p>R373.99</p>
+        <button class="add-to-cart" data-name="Straightener" data-price="373.99">Add to Cart</button>
+    </div>
+
+</div>
+
+<script>
+    const buttons = document.querySelectorAll(".add-to-cart");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const name = button.getAttribute("data-name");
+                const price = parseFloat(button.getAttribute("data-price"));
+                
+                let cart = JSON.parse(localStorage.getItem("cart")) || [];
+                cart.push({ name, price });
+                localStorage.setItem("cart", JSON.stringify(cart));
+
+                alert(`${name} added to cart`);
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="favicon.ico" />
+  <meta charset="UTF-8" />
+  <title>Hologram Categories</title>
+  <link rel="stylesheet" href="css/style.css" />
+  
+</head>
+<body>
+
+  <header>Choose Your Category</header>
+
+  <div class="category-wrapper">
+    <button class="nav-button nav-left" onclick="scrollCategories(-1)">&lt;</button>
+    <div class="category-slider" id="categorySlider">
+      <a href="tabootattoo.html" class="category-card">
+        <img src="images/tatto tabo.jpg" alt="Taboo Tattoo" />
+        <div class="category-name">Taboo Tattoo</div>
+      </a>
+
+      <a href="devilfruits.html" class="category-card">
+        <img src="images/devil fruit.jpg" alt="Devil Fruit" />
+        <div class="category-name">Devil Fruit</div>
+      </a>
+
+      <a href="tailedbeasts.html" class="category-card">
+        <img src="images/tailed beast.jpg" alt="Tailed Beast" />
+        <div class="category-name">Tailed Beast</div>
+      </a>
+
+      <a href="saiyan.html" class="category-card">
+        <img src="images/syrum.jpg" alt="Sayan Transformation" />
+        <div class="category-name">Sayan Transformation</div>
+      </a>
+
+      <a href="zanpakuto.html" class="category-card">
+        <img src="images/zanpaktoe.jpg" alt="Zanpaktuo" />
+        <div class="category-name">Zanpaktuo</div>
+      </a>
+
+      <a href="demonslayer.html" class="category-card">
+        <img src="images/nichirin swords.jpg" alt="Nichirin Blades" />
+        <div class="category-name">Nichirin Blades</div>
+      </a>
+
+      <a href="titans.html" class="category-card">
+        <img src="images/titain syrum.jpg" alt="Titan Serums" />
+        <div class="category-name">Titan Serums</div>
+      </a>
+    </div>
+    <button class="nav-button nav-right" onclick="scrollCategories(1)">&gt;</button>
+  </div>
+
+  <script>
+    let scrollIndex = 0;
+    const slider = document.getElementById("categorySlider");
+    const cards = slider.children;
+    const visibleCards = 3;
+    const cardWidth = 260;
+
+    function scrollCategories(direction) {
+      const maxIndex = cards.length - visibleCards;
+      scrollIndex = Math.max(0, Math.min(scrollIndex + direction, maxIndex));
+      slider.style.transform = `translateX(-${scrollIndex * (cardWidth + 40)}px)`;
+      updateCardTransform();
+    }
+
+    function updateCardTransform() {
+      for (let i = 0; i < cards.length; i++) {
+        const distance = i - scrollIndex - 1;
+        const card = cards[i];
+        if (distance < -2 || distance > 2) {
+          card.style.opacity = "0";
+          card.style.pointerEvents = "none";
+          card.style.transform = "scale(0.7) rotateY(20deg)";
+        } else {
+          card.style.opacity = "1";
+          card.style.pointerEvents = "auto";
+          card.style.transform = `scale(1) rotateY(${distance * 10}deg)`;
+        }
+      }
+    }
+
+    updateCardTransform();
+  </script>
+
+  </body>
+</html>

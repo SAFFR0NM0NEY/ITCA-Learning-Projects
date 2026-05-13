@@ -1,0 +1,32 @@
+<products>
+  <product>
+    <id>1</id>
+    <name>BMW S1000RR</name>
+    <price>340000</price>
+    <image>images/bmw.jpg</image>
+  </product>
+  <product>
+    <id>2</id>
+    <name>Yamaha R1</name>
+    <price>320000</price>
+    <image>images/yamaha.jpg</image>
+  </product>
+  <product>
+    <id>3</id>
+    <name>Kawasaki ZX10R</name>
+    <price>305000</price>
+    <image>images/kawasaki.jpg</image>
+  </product>
+  <product>
+    <id>4</id>
+    <name>Honda CBR1000rrr</name>
+    <price>355000</price>
+    <image>images/honda.jpg</image>
+  </product>
+  <product>
+    <id>5</id>
+    <name>Ducati Panigale V4</name>
+    <price>370000</price>
+    <image>images/ducati.jpg</image>
+  </product>
+</products>

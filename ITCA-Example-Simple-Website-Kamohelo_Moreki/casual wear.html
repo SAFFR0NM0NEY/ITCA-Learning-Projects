@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Casual Wear</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/cart.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <header>
+    <h1>Explore Our Casual Wear Collection</h1>
+    <nav>
+      <a href="product menue.html" class="btn home-btn">Home</a>
+      <a href="product menue.html" class="btn Product-btn">Product menue</a>
+      <a href="cart.html" class="btn cart-btn" aria-label="Shopping Cart">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+    </nav>
+  </header>
+
+  <main class="products-container">
+    <!-- Product 1 -->
+    <div class="product-card" data-id="1">
+      <img src="images/CASUAL CLOTHES/C1.jpg" alt="Relaxed Fit Hoodie" />
+      <h2>Relaxed Fit Hoodie</h2>
+      <p>R899</p>
+      <button class="btn add-to-cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card" data-id="2">
+      <img src="images/CASUAL CLOTHES/C2.jpg" alt="Classic Denim Jacket" />
+      <h2>Classic Denim Jacket</h2>
+      <p>R1299</p>
+      <button class="btn add-to-cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card" data-id="3">
+      <img src="images/CASUAL CLOTHES/C3.jpg" alt="Cotton T-Shirt Pack" />
+      <h2>Cotton T-Shirt Pack</h2>
+      <p>R799</p>
+      <button class="btn add-to-cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card" data-id="4">
+      <img src="images/CASUAL CLOTHES/C4.jpg" alt="Casual Chino Pants" />
+      <h2>Casual Chino Pants</h2>
+      <p>R1199</p>
+      <button class="btn add-to-cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card" data-id="5">
+      <img src="images/CASUAL CLOTHES/C5.jpg" alt="Lightweight Sneakers" />
+      <h2>Lightweight Sneakers</h2>
+      <p>R1699</p>
+      <button class="btn add-to-cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card" data-id="6">
+      <img src="images/CASUAL CLOTHES/C6.jpg" alt="Casual Polo Shirt" />
+      <h2>Casual Polo Shirt</h2>
+      <p>R799</p>
+      <button class="btn add-to-cart">Add to Cart</button>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product-card" data-id="7">
+      <img src="images/CASUAL CLOTHES/C7.jpg" alt="Sporty Jogger Pants" />
+      <h2>Sporty Jogger Pants</h2>
+      <p>R999</p>
+      <button class="btn add-to-cart">Add to Cart</button>
+    </div>
+  </main>
+
+  <script>
+    // Define all products
+    const products = [
+      {
+        id: 1,
+        name: "Relaxed Fit Hoodie",
+        price: 899,
+        image: "images/CASUAL CLOTHES/C1.jpg"
+      },
+      {
+        id: 2,
+        name: "Classic Denim Jacket",
+        price: 1299,
+        image: "images/CASUAL CLOTHES/C2.jpg"
+      },
+      {
+        id: 3,
+        name: "Cotton T-Shirt Pack",
+        price: 799,
+        image: "images/CASUAL CLOTHES/C3.jpg"
+      },
+      {
+        id: 4,
+        name: "Casual Chino Pants",
+        price: 1199,
+        image: "images/CASUAL CLOTHES/C4.jpg"
+      },
+      {
+        id: 5,
+        name: "Lightweight Sneakers",
+        price: 1699,
+        image: "images/CASUAL CLOTHES/C5.jpg"
+      },
+      {
+        id: 6,
+        name: "Casual Polo Shirt",
+        price: 799,
+        image: "images/CASUAL CLOTHES/C6.jpg"
+      },
+      {
+        id: 7,
+        name: "Sporty Jogger Pants",
+        price: 999,
+        image: "images/CASUAL CLOTHES/C7.jpg"
+      }
+    ];
+
+    // Bind add-to-cart buttons
+    document.querySelectorAll(".add-to-cart").forEach((btn, index) => {
+      btn.addEventListener("click", () => {
+        addToCart(products[index]);
+      });
+    });
+  </script>
+</body>
+</html>

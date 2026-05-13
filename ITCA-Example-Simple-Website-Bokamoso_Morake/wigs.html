@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wigs</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+    <header>
+        <h1>Wigs</h1>
+        <div id="product-list"></div>
+        <script src="products.js"></script>
+        <script>loadProducts();</script>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <h2 class="section-title">Our Wig Collection</h2>
+
+         <div class="product-container">
+        <div class="product-card">
+            <img src="Images\99J Burgundy Bob Wig.jpg" alt="99J Burgundy Bob Wig">
+            <h3>99J Burgundy Bob Wig</h3>
+            <p>Price: R874.99</p>
+            <button class="add-to-cart" data-name="99J Burgundy Bob Wig" data-price="874.99">Add to cart</button>
+        </div>
+
+    <div class="product-card">
+        <img src="Images/Straight Lace Frontal Wig.jpg" alt="Straight Lace Frontal Wig">
+        <h3>Straight Lace Frontal Wig</h3>
+        <p>R1056.99</p>
+        <button class="add-to-cart" data-name="Straight Lace Frontal Wig" data-price="1056.99">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Images/Honey Blonde Lace Frontal Wig.jpg" alt="Honey Blonde Lace Wig">
+        <h3>Honey Blonde Lace Wig</h3>
+        <p>R1123.99</p>
+        <button class="add-to-cart" data-name="Honey Blonde Lace Wig" data-price="1123.99">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Images/Body Wave Wig.jpg" alt="Body Wave Wig">
+        <h3>Body Wave Wig</h3>
+        <p>R1398.99</p>
+        <button class="add-to-cart"  data-name="Body Wave Wig" data-price="1398.99">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Images/Jerry Curls Wig.jpg" alt="Jerry Curls">
+        <h3>Jerry Curls</h3>
+        <p>R768.99</p>
+        <button class="add-to-cart" data-name="Jerry Curls" data-price="768.99">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Images/99J Burgundy Body Wave.jpg" alt="99J Burgundy Body Wave">
+        <h3>99J Burgundy Body Wave</h3>
+        <p>R1453.99</p>
+        <button class="add-to-cart" data-name="99J Burgundy Body Wave" data-price="1453.99">Add to Cart</button>
+    </div> 
+
+    <script>
+    const buttons = document.querySelectorAll(".add-to-cart");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const name = button.getAttribute("data-name");
+                const price = parseFloat(button.getAttribute("data-price"));
+                
+                let cart = JSON.parse(localStorage.getItem("cart")) || [];
+                cart.push({ name, price });
+                localStorage.setItem("cart", JSON.stringify(cart));
+
+                alert(`${name} added to cart`);
+        });
+    });
+</script>
+
+    <footer>
+        <p>&copy; 2025 Boka's plug</p>
+    </footer>
+</body>
+</html>

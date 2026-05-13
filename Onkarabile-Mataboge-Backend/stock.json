@@ -1,0 +1,67 @@
+[
+  {
+    "id": "V1",
+    "stock": 50,
+    "costPrice": 120.0
+  },
+  {
+    "id": "V2",
+    "stock": 50,
+    "costPrice": 450.0
+  },
+  {
+    "id": "V3",
+    "stock": 50,
+    "costPrice": 99.99
+  },
+  {
+    "id": "V4",
+    "stock": 50,
+    "costPrice": 450.0
+  },
+  {
+    "id": "V5",
+    "stock": 50,
+    "costPrice": 110.0
+  },
+  {
+    "id": "V6",
+    "stock": 50,
+    "costPrice": 50.0
+  },
+  {
+    "id": "V7",
+    "stock": 50,
+    "costPrice": 230.0
+  },
+  {
+    "id": "F1",
+    "stock": 50,
+    "costPrice": 300.0
+  },
+  {
+    "id": "F2",
+    "stock": 50,
+    "costPrice": 199.99
+  },
+  {
+    "id": "F3",
+    "stock": 50,
+    "costPrice": 500.0
+  },
+  {
+    "id": "F4",
+    "stock": 50,
+    "costPrice": 299.99
+  },
+  {
+    "id": "F5",
+    "stock": 50,
+    "costPrice": 199.99
+  },
+  {
+    "id": "F6",
+    "stock": 50,
+    "costPrice": 399.99
+  }
+]

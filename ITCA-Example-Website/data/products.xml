@@ -1,0 +1,32 @@
+<products>
+  <product>
+    <id>1</id>
+    <name>Wireless Mouse</name>
+    <price>199.99</price>
+    <image>images/mouse.jpg</image>
+  </product>
+  <product>
+    <id>2</id>
+    <name>USB Keyboard</name>
+    <price>299.99</price>
+    <image>images/keyboard.jpg</image>
+  </product>
+  <product>
+    <id>3</id>
+    <name>Webcam HD</name>
+    <price>499.99</price>
+    <image>images/webcam.jpg</image>
+  </product>
+  <product>
+    <id>4</id>
+    <name>Gaming Headset</name>
+    <price>699.99</price>
+    <image>images/headset.jpg</image>
+  </product>
+  <product>
+    <id>5</id>
+    <name>Bluetooth Speaker</name>
+    <price>349.99</price>
+    <image>images/speaker.jpg</image>
+  </product>
+</products>

@@ -1,0 +1,91 @@
+<products>
+    <product>
+    <id>1</id>
+    <name>99J Burgundy Bob Wig</name>
+    <category>wigs</category>
+    <price>874.99</price>
+    <image>Images\99J Burgundy Bob Wig.jpg</image>
+    </product>
+
+    <product>
+    <id>2</id>
+    <name>Straight Lace Frontal Wig</name>
+    <category>wigs</category>
+    <price>1056.99</price>
+    <image>Images\Straight Lace Frontal Wig.jpg</image>
+    </product>
+
+    <product>
+    <id>3</id>
+    <name>Hair Clips</name>
+    <category>accessories</category>
+    <price>22.99</price>
+    <image>Images\Hair Clips.jpg</image>
+    </product>
+
+    <product>
+    <id>4</id>
+    <name>Hot Comb</name>
+    <category>accessories</category>
+    <price>138.99</price>
+    <image>Images\Hot Comb.jpg</image>
+    </product>
+
+    <product>
+    <id>5</id>
+    <name>Installation kit</name>
+    <category>accessories</category>
+    <price>162.99</price>
+    <image>Images\Installation kit.jpg</image>
+    </product>
+
+    <product>
+    <id>6</id>
+    <name>Lace Band</name>
+    <category>accessories</category>
+    <price>17.99</price>
+    <image>Images\Lace Band.jpg</image>
+    </product>
+
+    <product>
+    <id>7</id>
+    <name>Straightener</name>
+    <category>accessories</category>
+    <price>373.99</price>
+    <image>Images\Straightener.jpg</image>
+    </product>
+
+    <product>
+    <id>8</id>
+    <name>Honey Blonde Lace Wig</name>
+    <category>wigs</category>
+    <price>1123.99</price>
+    <image>Images\Honey Blonde Lace Frontal Wig.jpg</image>
+    </product>
+
+<product>
+    <id>9</id>
+    <name>Body Wave Wig</name>
+    <category>wigs</category>
+    <price>1398.99</price>
+    <image>Images\Body Wave Wig.jpg</image>
+    </product>
+
+    <product>
+    <id>10</id>
+    <name>Jerry Curls</name>
+    <category>wigs</category>
+    <price>768.99</price>
+    <image>Images\Jerry Curls Wig.jpg</image>
+    </product>
+
+    <product>
+    <id>10</id>
+    <name>99J Burgundy Body Wave</name>
+    <category>wigs</category>
+    <price>1453.99</price>
+    <image>Images\99J Burgundy Body Wave.jpg</image>
+    </product>
+  
+    
+</products>

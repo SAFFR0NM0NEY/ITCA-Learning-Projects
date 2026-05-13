@@ -1,0 +1,779 @@
+[
+  {
+    "id": 1,
+    "name": "High Card 1",
+    "image": "images/high-card/card1.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 2,
+    "name": "High Card 2",
+    "image": "images/high-card/card2.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 3,
+    "name": "High Card 3",
+    "image": "images/high-card/card3.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 4,
+    "name": "High Card 4",
+    "image": "images/high-card/card4.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 5,
+    "name": "High Card 5",
+    "image": "images/high-card/card5.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 6,
+    "name": "High Card 6",
+    "image": "images/high-card/card6.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 7,
+    "name": "High Card 7",
+    "image": "images/high-card/card7.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 8,
+    "name": "High Card 8",
+    "image": "images/high-card/card8.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 9,
+    "name": "High Card 9",
+    "image": "images/high-card/card9.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 10,
+    "name": "High Card 10",
+    "image": "images/high-card/card10.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 11,
+    "name": "High Card 11",
+    "image": "images/high-card/card11.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 12,
+    "name": "High Card 12",
+    "image": "images/high-card/card12.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 13,
+    "name": "High Card 13",
+    "image": "images/high-card/card13.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 14,
+    "name": "High Card 14",
+    "image": "images/high-card/card14.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 15,
+    "name": "High Card 15",
+    "image": "images/high-card/card15.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 16,
+    "name": "High Card 16",
+    "image": "images/high-card/card16.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 17,
+    "name": "High Card 17",
+    "image": "images/high-card/card17.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 18,
+    "name": "High Card 18",
+    "image": "images/high-card/card18.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 19,
+    "name": "High Card 19",
+    "image": "images/high-card/card19.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 20,
+    "name": "High Card 20",
+    "image": "images/high-card/card20.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 21,
+    "name": "High Card 21",
+    "image": "images/high-card/card21.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 22,
+    "name": "High Card 22",
+    "image": "images/high-card/card22.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 23,
+    "name": "High Card 23",
+    "image": "images/high-card/card23.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 24,
+    "name": "High Card 24",
+    "image": "images/high-card/card24.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 25,
+    "name": "High Card 25",
+    "image": "images/high-card/card25.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 26,
+    "name": "High Card 26",
+    "image": "images/high-card/card26.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 27,
+    "name": "High Card 27",
+    "image": "images/high-card/card27.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 28,
+    "name": "High Card 28",
+    "image": "images/high-card/card28.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 29,
+    "name": "High Card 29",
+    "image": "images/high-card/card29.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 30,
+    "name": "High Card 30",
+    "image": "images/high-card/card30.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 31,
+    "name": "High Card 31",
+    "image": "images/high-card/card31.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 32,
+    "name": "High Card 32",
+    "image": "images/high-card/card32.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 33,
+    "name": "High Card 33",
+    "image": "images/high-card/card33.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 34,
+    "name": "High Card 34",
+    "image": "images/high-card/card34.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 35,
+    "name": "High Card 35",
+    "image": "images/high-card/card35.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 36,
+    "name": "High Card 36",
+    "image": "images/high-card/card36.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 37,
+    "name": "High Card 37",
+    "image": "images/high-card/card37.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 38,
+    "name": "High Card 38",
+    "image": "images/high-card/card38.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 39,
+    "name": "High Card 39",
+    "image": "images/high-card/card39.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 40,
+    "name": "High Card 40",
+    "image": "images/high-card/card40.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 41,
+    "name": "High Card 41",
+    "image": "images/high-card/card41.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 42,
+    "name": "High Card 42",
+    "image": "images/high-card/card42.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 43,
+    "name": "High Card 43",
+    "image": "images/high-card/card43.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 44,
+    "name": "High Card 44",
+    "image": "images/high-card/card44.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 45,
+    "name": "High Card 45",
+    "image": "images/high-card/card45.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 46,
+    "name": "High Card 46",
+    "image": "images/high-card/card46.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 47,
+    "name": "High Card 47",
+    "image": "images/high-card/card47.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 48,
+    "name": "High Card 48",
+    "image": "images/high-card/card48.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 49,
+    "name": "High Card 49",
+    "image": "images/high-card/card49.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 50,
+    "name": "High Card 50",
+    "image": "images/high-card/card50.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 51,
+    "name": "High Card 51",
+    "image": "images/high-card/card51.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 52,
+    "name": "High Card 52",
+    "image": "images/high-card/card52.jpg",
+    "category": "High Card",
+    "description": "A rare collectible High Card imbued with luck."
+  },
+  {
+    "id": 53,
+    "name": "Taboo Tattoo 1",
+    "image": "images/taboo-tattoo/tattoo1.jpg",
+    "category": "Taboo Tattoo",
+    "description": "An ancient tattoo artifact granting mystical powers."
+  },
+  {
+    "id": 54,
+    "name": "Taboo Tattoo 2",
+    "image": "images/taboo-tattoo/tattoo2.jpg",
+    "category": "Taboo Tattoo",
+    "description": "An ancient tattoo artifact granting mystical powers."
+  },
+  {
+    "id": 55,
+    "name": "Taboo Tattoo 3",
+    "image": "images/taboo-tattoo/tattoo3.jpg",
+    "category": "Taboo Tattoo",
+    "description": "An ancient tattoo artifact granting mystical powers."
+  },
+  {
+    "id": 56,
+    "name": "Taboo Tattoo 4",
+    "image": "images/taboo-tattoo/tattoo4.jpg",
+    "category": "Taboo Tattoo",
+    "description": "An ancient tattoo artifact granting mystical powers."
+  },
+  {
+    "id": 57,
+    "name": "Taboo Tattoo 5",
+    "image": "images/taboo-tattoo/tattoo5.jpg",
+    "category": "Taboo Tattoo",
+    "description": "An ancient tattoo artifact granting mystical powers."
+  },
+  {
+    "id": 58,
+    "name": "Taboo Tattoo 6",
+    "image": "images/taboo-tattoo/tattoo6.jpg",
+    "category": "Taboo Tattoo",
+    "description": "An ancient tattoo artifact granting mystical powers."
+  },
+  {
+    "id": 59,
+    "name": "Devil Fruit 1",
+    "image": "images/devil-fruit/fruit1.jpg",
+    "category": "Devil Fruit",
+    "description": "A powerful Devil Fruit that bestows supernatural abilities."
+  },
+  {
+    "id": 60,
+    "name": "Devil Fruit 2",
+    "image": "images/devil-fruit/fruit2.jpg",
+    "category": "Devil Fruit",
+    "description": "A powerful Devil Fruit that bestows supernatural abilities."
+  },
+  {
+    "id": 61,
+    "name": "Devil Fruit 3",
+    "image": "images/devil-fruit/fruit3.jpg",
+    "category": "Devil Fruit",
+    "description": "A powerful Devil Fruit that bestows supernatural abilities."
+  },
+  {
+    "id": 62,
+    "name": "Devil Fruit 4",
+    "image": "images/devil-fruit/fruit4.jpg",
+    "category": "Devil Fruit",
+    "description": "A powerful Devil Fruit that bestows supernatural abilities."
+  },
+  {
+    "id": 63,
+    "name": "Devil Fruit 5",
+    "image": "images/devil-fruit/fruit5.jpg",
+    "category": "Devil Fruit",
+    "description": "A powerful Devil Fruit that bestows supernatural abilities."
+  },
+  {
+    "id": 64,
+    "name": "Devil Fruit 6",
+    "image": "images/devil-fruit/fruit6.jpg",
+    "category": "Devil Fruit",
+    "description": "A powerful Devil Fruit that bestows supernatural abilities."
+  },
+  {
+    "id": 65,
+    "name": "Devil Fruit 7",
+    "image": "images/devil-fruit/fruit7.jpg",
+    "category": "Devil Fruit",
+    "description": "A powerful Devil Fruit that bestows supernatural abilities."
+  },
+  {
+    "id": 66,
+    "name": "Devil Fruit 8",
+    "image": "images/devil-fruit/fruit8.jpg",
+    "category": "Devil Fruit",
+    "description": "A powerful Devil Fruit that bestows supernatural abilities."
+  },
+  {
+    "id": 67,
+    "name": "Devil Fruit 9",
+    "image": "images/devil-fruit/fruit9.jpg",
+    "category": "Devil Fruit",
+    "description": "A powerful Devil Fruit that bestows supernatural abilities."
+  },
+  {
+    "id": 68,
+    "name": "Devil Fruit 10",
+    "image": "images/devil-fruit/fruit10.jpg",
+    "category": "Devil Fruit",
+    "description": "A powerful Devil Fruit that bestows supernatural abilities."
+  },
+  {
+    "id": 69,
+    "name": "Tailed Beast 1",
+    "image": "images/tailed-beast/beast1.jpg",
+    "category": "Tailed Beast",
+    "description": "A chakra-infused item from a legendary tailed beast."
+  },
+  {
+    "id": 70,
+    "name": "Tailed Beast 2",
+    "image": "images/tailed-beast/beast2.jpg",
+    "category": "Tailed Beast",
+    "description": "A chakra-infused item from a legendary tailed beast."
+  },
+  {
+    "id": 71,
+    "name": "Tailed Beast 3",
+    "image": "images/tailed-beast/beast3.jpg",
+    "category": "Tailed Beast",
+    "description": "A chakra-infused item from a legendary tailed beast."
+  },
+  {
+    "id": 72,
+    "name": "Tailed Beast 4",
+    "image": "images/tailed-beast/beast4.jpg",
+    "category": "Tailed Beast",
+    "description": "A chakra-infused item from a legendary tailed beast."
+  },
+  {
+    "id": 73,
+    "name": "Tailed Beast 5",
+    "image": "images/tailed-beast/beast5.jpg",
+    "category": "Tailed Beast",
+    "description": "A chakra-infused item from a legendary tailed beast."
+  },
+  {
+    "id": 74,
+    "name": "Tailed Beast 6",
+    "image": "images/tailed-beast/beast6.jpg",
+    "category": "Tailed Beast",
+    "description": "A chakra-infused item from a legendary tailed beast."
+  },
+  {
+    "id": 75,
+    "name": "Tailed Beast 7",
+    "image": "images/tailed-beast/beast7.jpg",
+    "category": "Tailed Beast",
+    "description": "A chakra-infused item from a legendary tailed beast."
+  },
+  {
+    "id": 76,
+    "name": "Tailed Beast 8",
+    "image": "images/tailed-beast/beast8.jpg",
+    "category": "Tailed Beast",
+    "description": "A chakra-infused item from a legendary tailed beast."
+  },
+  {
+    "id": 77,
+    "name": "Tailed Beast 9",
+    "image": "images/tailed-beast/beast9.jpg",
+    "category": "Tailed Beast",
+    "description": "A chakra-infused item from a legendary tailed beast."
+  },
+  {
+    "id": 78,
+    "name": "Sayan Transformation 1",
+    "image": "images/sayan/sayan1.jpg",
+    "category": "Sayan Transformation",
+    "description": "A transformation relic used by elite Saiyan warriors."
+  },
+  {
+    "id": 79,
+    "name": "Sayan Transformation 2",
+    "image": "images/sayan/sayan2.jpg",
+    "category": "Sayan Transformation",
+    "description": "A transformation relic used by elite Saiyan warriors."
+  },
+  {
+    "id": 80,
+    "name": "Sayan Transformation 3",
+    "image": "images/sayan/sayan3.jpg",
+    "category": "Sayan Transformation",
+    "description": "A transformation relic used by elite Saiyan warriors."
+  },
+  {
+    "id": 81,
+    "name": "Sayan Transformation 4",
+    "image": "images/sayan/sayan4.jpg",
+    "category": "Sayan Transformation",
+    "description": "A transformation relic used by elite Saiyan warriors."
+  },
+  {
+    "id": 82,
+    "name": "Sayan Transformation 5",
+    "image": "images/sayan/sayan5.jpg",
+    "category": "Sayan Transformation",
+    "description": "A transformation relic used by elite Saiyan warriors."
+  },
+  {
+    "id": 83,
+    "name": "Sayan Transformation 6",
+    "image": "images/sayan/sayan6.jpg",
+    "category": "Sayan Transformation",
+    "description": "A transformation relic used by elite Saiyan warriors."
+  },
+  {
+    "id": 84,
+    "name": "Sayan Transformation 7",
+    "image": "images/sayan/sayan7.jpg",
+    "category": "Sayan Transformation",
+    "description": "A transformation relic used by elite Saiyan warriors."
+  },
+  {
+    "id": 85,
+    "name": "Zanpaktuo 1",
+    "image": "images/zanpaktuo/z1.jpg",
+    "category": "Zanpaktuo",
+    "description": "A spiritual sword forged for Soul Reapers."
+  },
+  {
+    "id": 86,
+    "name": "Zanpaktuo 2",
+    "image": "images/zanpaktuo/z2.jpg",
+    "category": "Zanpaktuo",
+    "description": "A spiritual sword forged for Soul Reapers."
+  },
+  {
+    "id": 87,
+    "name": "Zanpaktuo 3",
+    "image": "images/zanpaktuo/z3.jpg",
+    "category": "Zanpaktuo",
+    "description": "A spiritual sword forged for Soul Reapers."
+  },
+  {
+    "id": 88,
+    "name": "Zanpaktuo 4",
+    "image": "images/zanpaktuo/z4.jpg",
+    "category": "Zanpaktuo",
+    "description": "A spiritual sword forged for Soul Reapers."
+  },
+  {
+    "id": 89,
+    "name": "Zanpaktuo 5",
+    "image": "images/zanpaktuo/z5.jpg",
+    "category": "Zanpaktuo",
+    "description": "A spiritual sword forged for Soul Reapers."
+  },
+  {
+    "id": 90,
+    "name": "Zanpaktuo 6",
+    "image": "images/zanpaktuo/z6.jpg",
+    "category": "Zanpaktuo",
+    "description": "A spiritual sword forged for Soul Reapers."
+  },
+  {
+    "id": 91,
+    "name": "Zanpaktuo 7",
+    "image": "images/zanpaktuo/z7.jpg",
+    "category": "Zanpaktuo",
+    "description": "A spiritual sword forged for Soul Reapers."
+  },
+  {
+    "id": 92,
+    "name": "Zanpaktuo 8",
+    "image": "images/zanpaktuo/z8.jpg",
+    "category": "Zanpaktuo",
+    "description": "A spiritual sword forged for Soul Reapers."
+  },
+  {
+    "id": 93,
+    "name": "Nichirin Blades 1",
+    "image": "images/nichirin/blade1.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 94,
+    "name": "Nichirin Blades 2",
+    "image": "images/nichirin/blade2.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 95,
+    "name": "Nichirin Blades 3",
+    "image": "images/nichirin/blade3.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 96,
+    "name": "Nichirin Blades 4",
+    "image": "images/nichirin/blade4.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 97,
+    "name": "Nichirin Blades 5",
+    "image": "images/nichirin/blade5.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 98,
+    "name": "Nichirin Blades 6",
+    "image": "images/nichirin/blade6.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 99,
+    "name": "Nichirin Blades 7",
+    "image": "images/nichirin/blade7.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 100,
+    "name": "Nichirin Blades 8",
+    "image": "images/nichirin/blade8.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 101,
+    "name": "Nichirin Blades 9",
+    "image": "images/nichirin/blade9.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 102,
+    "name": "Nichirin Blades 10",
+    "image": "images/nichirin/blade10.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 103,
+    "name": "Nichirin Blades 11",
+    "image": "images/nichirin/blade11.jpg",
+    "category": "Nichirin Blades",
+    "description": "A Demon Slayer's Nichirin Blade with unique powers."
+  },
+  {
+    "id": 104,
+    "name": "Titan Serums 1",
+    "image": "images/titan-serum/serum1.jpg",
+    "category": "Titan Serums",
+    "description": "A vial containing Titan transformation serum."
+  },
+  {
+    "id": 105,
+    "name": "Titan Serums 2",
+    "image": "images/titan-serum/serum2.jpg",
+    "category": "Titan Serums",
+    "description": "A vial containing Titan transformation serum."
+  },
+  {
+    "id": 106,
+    "name": "Titan Serums 3",
+    "image": "images/titan-serum/serum3.jpg",
+    "category": "Titan Serums",
+    "description": "A vial containing Titan transformation serum."
+  },
+  {
+    "id": 107,
+    "name": "Titan Serums 4",
+    "image": "images/titan-serum/serum4.jpg",
+    "category": "Titan Serums",
+    "description": "A vial containing Titan transformation serum."
+  },
+  {
+    "id": 108,
+    "name": "Titan Serums 5",
+    "image": "images/titan-serum/serum5.jpg",
+    "category": "Titan Serums",
+    "description": "A vial containing Titan transformation serum."
+  },
+  {
+    "id": 109,
+    "name": "Titan Serums 6",
+    "image": "images/titan-serum/serum6.jpg",
+    "category": "Titan Serums",
+    "description": "A vial containing Titan transformation serum."
+  },
+  {
+    "id": 110,
+    "name": "Titan Serums 7",
+    "image": "images/titan-serum/serum7.jpg",
+    "category": "Titan Serums",
+    "description": "A vial containing Titan transformation serum."
+  },
+  {
+    "id": 111,
+    "name": "Titan Serums 8",
+    "image": "images/titan-serum/serum8.jpg",
+    "category": "Titan Serums",
+    "description": "A vial containing Titan transformation serum."
+  }
+]

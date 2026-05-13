@@ -1,0 +1,66 @@
+[
+  {
+    "id": "b001",
+    "name": "The Art of War",
+    "category": "Books",
+    "price": 120.0,
+    "image": "assets/images/art-of-war.jpg",
+    "description": "A classic strategy guide by Sun Tzu."
+  },
+  {
+    "id": "b002",
+    "name": "Clean Code",
+    "category": "Books",
+    "price": 450.0,
+    "image": "assets/images/clean-code.jpg",
+    "description": "A handbook of agile software craftsmanship."
+  },
+  {
+    "id": "e101",
+    "name": "Wireless Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 899.99,
+    "image": "assets/images/headphones.jpg",
+    "description": "Noise-cancelling over-ear headphones."
+  },
+  {
+    "id": "e102",
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "price": 1299.0,
+    "image": "assets/images/smartwatch.jpg",
+    "description": "Multifunctional smartwatch with fitness tracking."
+  },
+  {
+    "id": "c301",
+    "name": "Graphic T-Shirt",
+    "category": "Clothes",
+    "price": 199.0,
+    "image": "assets/images/tshirt.jpg",
+    "description": "100% cotton t-shirt with a cool print."
+  },
+  {
+    "id": "c302",
+    "name": "Denim Jeans",
+    "category": "Clothes",
+    "price": 399.0,
+    "image": "assets/images/jeans.jpg",
+    "description": "Comfortable and durable blue jeans."
+  },
+  {
+    "id": "g501",
+    "name": "Gaming Mouse RGB",
+    "category": "Gaming",
+    "price": 599.99,
+    "image": "assets/images/gaming-mouse.jpg",
+    "description": "High DPI gaming mouse with customizable lights."
+  },
+  {
+    "id": "g502",
+    "name": "Mechanical Gaming Keyboard",
+    "category": "Gaming",
+    "price": 1099.0,
+    "image": "assets/images/gaming-keyboard.jpg",
+    "description": "RGB backlit mechanical keyboard for gamers."
+  }
+]

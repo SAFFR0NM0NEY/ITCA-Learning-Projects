@@ -1,0 +1,88 @@
+<products>
+   <product>
+   <id>1</id>
+   <name> Period Survival Kit</name>
+   <price>350</price>
+   <image> Images\Period Survival Kit.jpg </image>
+   <description> Whether you curled with cramps. This box has everything you need to feel seen, soothed and spoiled.</description>
+   </product>
+
+   <product>
+   <id>2</id>
+   <name>  Flu Survival Kit</name>
+   <price>350</price>
+   <image> Images\Flu Survival Kit.jpg </image>
+   </product>
+
+   <product>
+   <id>3</id>
+   <name> Emergency Kit </name>
+   <price>260</price>
+   <image> Images\Emergency Kit.jpg </image>
+   </product>
+   
+   <product>
+   <id>4</id>
+   <name> Survival Kit</name>
+   <price>180</price>
+   <image> Images\Survival Kit.jpg  </image>
+   </product>
+
+   <product>
+   <id>5</id>
+   <name> Valentines Package </name>
+   <price>650</price>
+   <image> Images\Valentines Package.jpg  </image>
+   </product>
+
+   <product>
+   <id>6</id>
+   <name> Cozy Night in Box </name>
+   <price>550</price>
+   <image>Images\Cozy Night in Box.jpg </image>
+   </product>
+   
+   <product>
+   <id>7</id>
+   <name> Birthday Package</name>
+   <price>1000</price>
+   <image> Images\Birthday Package.jpg  </image>
+   </product>
+   
+   <product>
+   <id>8</id>
+   <name> Stationery Package </name>
+   <price>350</price>
+   <image> Images\Stationery Package.jpg </image>
+   </product>
+   
+   <product>
+   <id>9</id>
+   <name> Sweet Tooth </name>
+   <price>100</price>
+   <image> Images\Sweet Tooth.jpg </image>
+   </product> 
+
+   <product>
+   <id>10</id>
+   <name> HERS Skin Care </name>
+   <price>280</price>
+   <image> Images/HERS Skin Care.jpg </image>
+   </product> 
+   
+   <product>
+   <id>11</id>
+   <name> HIS Skin Care </name>
+   <price>280</price>
+   <image> Images\HIS Skin Care.jpg </image>
+   </product> 
+
+   <product>
+   <id>12</id>
+   <name> Breakup Survival Kit </name>
+   <price>180</price>
+   <image>Images\Breakup Survival Kit.jpg</image>
+   </product>
+
+
+</products>
